@@ -1,0 +1,37 @@
+.posts-List {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  
+}
+
+.post {
+    background-color: aliceblue;
+    width: 200px;
+    height: 20em;
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    box-shadow: -1px -1px 5px -1px;
+    
+  }
+
+  .book-card {
+    background-color: aliceblue;
+  justify-self: center;
+    width: 400px;
+    height: auto;
+    margin: 5px;
+    padding: 18px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    box-shadow: -1px -1px 5px -1px;
+    
+  }
