@@ -1,0 +1,8 @@
+nav {
+   display: inline-flex;
+    padding: 0;
+}
+menu {
+    
+    justify-self: right;
+}
