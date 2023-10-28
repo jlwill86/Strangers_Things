@@ -1,7 +1,7 @@
 
 
 import './App.css'
-import PostPage from './features/posts/PostPage'
+// import PostPage from './features/posts/PostPage'
 import Posts from './features/posts/Posts'
 
 function App() {

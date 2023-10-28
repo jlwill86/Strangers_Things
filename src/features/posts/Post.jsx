@@ -9,6 +9,7 @@ export default function Post({ post }) {
             <h2>{post.title}</h2>
             <p>{post.price}</p>
             <p>{post.description}</p>
+            
         </li>
     )
 }
