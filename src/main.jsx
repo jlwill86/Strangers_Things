@@ -7,6 +7,7 @@ import { createBrowserRouter ,RouterProvider } from 'react-router-dom';
 import PostDetials from './features/posts/PostDetails';
 import PostPage from './features/posts/PostPage';
 import Root from './layout/Root';
+import Register from './features/auth/Register';
 
 
 const router = createBrowserRouter([
@@ -26,7 +27,11 @@ const router = createBrowserRouter([
   {
     path: "/posts/:id",
     element: <PostDetials />
-  }
+  },
+  {
+    path: "/register",
+    element: <Register />
+  },
     ],
   },
 ]);

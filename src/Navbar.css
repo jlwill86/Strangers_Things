@@ -1,8 +1,29 @@
-nav {
+.nav-Bar {
    display: inline-flex;
     padding: 0;
+    background-color: lightblue;
+    width: 100%;
+    justify-content: space-around;
+    border-bottom: 1px solid slategray;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+
 }
+nav h2 {
+    display: flex;
+
+}
+
 menu {
+    display: inline-flex;
+    flex-direction: row;
+    /* justify-self: right; */
+    /* justify-content: space-between; */
+    gap: 15px;
+    align-items: center
+    ;
+}
+
+menu li {
     
-    justify-self: right;
 }
